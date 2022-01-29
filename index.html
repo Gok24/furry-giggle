@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <link rel="icon" type="image/png" href="comedy.png">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet">
+  <link href="https://kit-pro.fontawesome.com/releases/v5.12.1/css/pro.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title> </title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@100;200;300;400;500;700;900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .movies{
+    margin: 5px;
+  }
+    body{
+      background: #0f0f0f; 
+  /*    background: #0f0f0f; */
+      font-family: Google Sans;
+    }
+    .movie{
+      display: flex;
+      margin: 0 10px;
+      padding: 10px;
+      align-items: center;
+      background: #1a1a1a;
+      color: #aeaeae;
+    /*  border-radius: 8px; */
+      box-shadow: 1px 1px 4px #000
+    }
+    .movie:first-child{
+      border-radius: 5px 5px 0 0;
+    }
+    .movie:last-child{
+      border-radius: 0 0 5px 5px;
+    }
+    .poster img{
+      height: 60px;
+      width: 45px;
+      border-radius: 5px;
+    }
+    .title{
+      margin: 0 10px;
+    }
+    .title .name{
+      font-weight: 490;
+      font-size: 14.8px;
+    }
+    .yr,.sz{
+      font-size: 11px;
+      color: #6c6c6c;
+    }
+    .dwn{
+      margin-left: auto;
+      color: #5c72ff;
+      border-radius: 2px;
+      -webkit-tap-highlight-color:transparent;
+    }
+    a{
+      color: gray;
+      border-radius: 2px;
+    }
+    .searchbar{
+      margin: 15px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      color: gray;
+      padding: 10px;
+      border-radius: 5px;
+      background: #1a1a1a;
+      box-shadow: 0.5px 1px 2px black;
+    }
+    .search{
+      background: transparent;
+      outline: none;
+      border: none;
+      padding: 5px;
+      color: #aeaeae;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="top">
+  <div class="searchbar">
+    <span class="material-icons-outlined">
+search
+</span>
+    <input type="" id="inp" name="" class="search" value="" placeholder="Search Movies & Series" autocomplete="off" onkeyup="search()"/>
+  </div>
+  </div>
+  <div class="main">
+    <div class="movies">
+      <div class="movie">
+        <div class="poster">
+          <img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/the-eternals_36z4kjbk_500x749.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">Eternals</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 636.79MB</p>
+        </div>
+        <div class="dwn" mid="etrnls21eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://cdn.shopify.com/s/files/1/0057/3728/3618/products/resevilracccity._500x749.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">Resident Evil</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 436.64MB</p>
+        </div>
+        <div class="dwn" mid="rsdevl21eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/10/IMG_0075-scaled.jpeg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">No time to die</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 669.10MB</p>
+        </div>
+        <div class="dwn" mid="nttd21eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="http://oyster.ignimgs.com/wordpress/stg.ign.com/2021/04/Shang-Chi-Poster-Marvel.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">Shang-Chi and the legend of the ten rings</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 541.51MB</p>
+        </div>
+        <div class="dwn" mid="shngchi21eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://m.media-amazon.com/images/M/MV5BMTE2ODU4NDEtNmRjNS00OTk1LTg4NmMtNTAzYzVlNzJmYjgzXkEyXkFqcGdeQXVyODk4OTc3MTY@._V1_.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">A Quiet Place II</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 344.32MB</p>
+        </div>
+        <div class="dwn" mid="aqpp221eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://www.themoviedb.org/t/p/original/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">Free Guy</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 456.11MB</p>
+        </div>
+        <div class="dwn" mid="frgy21eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://m.media-amazon.com/images/M/MV5BYTc0NWIwOTYtNzEwYi00YmUyLTlmYWYtYjJiZjRjN2RjMjAxXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">Malignant</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 454.42MB</p>
+        </div>
+        <div class="dwn" mid="mlgnt21eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://www.themoviedb.org/t/p/original/r7HEBkkRN93d3eFBZgPJfRaob5p.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">Don't Breath 2</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 402.04MB</p>
+        </div>
+        <div class="dwn" mid="dntbrth221eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfw51bUPClaIR3jGEySl8hodlvzfH6qGECUA&usqp=CAU" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">The Suicide Squad</p>
+          <p class="yr">2021 <span class="lan">• English </span></p>
+          <p class="sz">size: 549.54MB</p>
+        </div>
+        <div class="dwn" mid="thscsq21eng">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      <div class="movie">
+        <div class="poster">
+          <img src="https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg" alt="" />
+        </div>
+        <div class="title">
+          <p class="name">F9 The Fast Saga</p>
+          <p class="yr">2021 <span class="lan">• English</span></p>
+          <p class="sz">size: 592.96MB</p>
+        </div>
+        <div class="dwn" mid="f9tfstsag">
+       <span class="material-icons-round">
+file_download
+</span>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script>
+    window.oncontextmenu = function(event) {
+     event.preventDefault();
+     event.stopPropagation();
+     return false;
+};
+  </script>
+  <script src="sva86wzo2n.js"></script>
+  <script>
+    var dwn = document.querySelectorAll(".dwn")
+    dwn.forEach(function(px){
+      px.addEventListener('click',function(){
+        var mid = this.getAttribute("mid")
+       fetch(fdt.ax8+fdt.ay39+fdt.gp9+fdt.ap73+fdt.gx9+fdt.wy+fdt.ax02+fdt.iap+fdt.wj7)
+       .then(response => response.json())
+       .then(data =>{
+         window.location = data[mid]
+       })
+      })
+    })
+  </script>
+  <script>
+    function search(){
+      let inp = document.getElementById("inp").value
+      inp = inp.toLowerCase();
+      let x = document.getElementsByClassName('movie')
+      for (i = 0; i < x.length; i++) {  
+        if (!x[i].innerHTML.toLowerCase().includes(inp)) { 
+            x[i].style.display="none"; 
+        } 
+        else { 
+            x[i].style.display="flex";
+        } 
+    } 
+    }
+  </script>
+  <script>
+  const container = document.querySelector('.movies');
+const children = [...container.children];
+children.forEach(child => child.remove());
+const randomChildren = children.map((child) => ({ child, rand: Math.random() }));
+randomChildren.sort((a, b) => b.rand - a.rand);
+randomChildren.forEach(randomObj => container.appendChild(randomObj.child));
+  </script>
+  
+  </body>
+</html>
